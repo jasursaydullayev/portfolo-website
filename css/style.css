@@ -425,11 +425,16 @@ h4 {
   padding-right: 5rem;
 }
 
+main {
+  flex-grow: 1;
+}
+
 .header {
   background-color: #043E51;
   background-image: url("../images/hero-blur-image-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 24.8rem;
 }
 
 .header__top__container {
@@ -438,6 +443,11 @@ h4 {
   align-items: center;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
+  margin-bottom: 15rem;
+}
+.header__top__container .header__link:hover {
+  color: #145E76;
+  background-color: #fff;
 }
 
 .sitenav__list {
@@ -464,4 +474,339 @@ h4 {
 }
 .sitenav__list a:hover::before {
   width: 100%;
+}
+
+.header__hero__title {
+  width: 53.7rem;
+  font-size: 6.4rem;
+  line-height: 1.25;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.header__hero__text {
+  width: 51.1rem;
+  height: 5.8em;
+  color: #849499;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5rem;
+}
+
+.header__hero {
+  display: flex;
+}
+.header__hero .header__hero__link:hover {
+  color: #145E76;
+  background-color: #fff;
+}
+
+.header__hero_links {
+  display: flex;
+  gap: 5rem;
+}
+
+.header__hero__link2 {
+  color: #B6CDD4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.static {
+  text-align: center;
+  width: 117rem;
+  height: 32.3rem;
+  background-color: #FFFFFF;
+  border-radius: 3rem;
+  margin-top: -16rem;
+  box-shadow: 0px 73px 80px 0px rgba(0, 0, 0, 0.0588235294);
+  margin-bottom: 20rem;
+  transition: 0.4s;
+}
+
+.static:hover {
+  transform: scale(1.2);
+}
+
+.about__statistic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statistic {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  color: #265A6A;
+  margin-bottom: 7.9rem;
+}
+
+.about__statistic {
+  color: #265A6A;
+}
+
+.services__title {
+  color: #08546C;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.services__link {
+  font-weight: 400;
+  font-size: 2.4rem;
+  font-family: "Schoolbell", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  color: #265A6A;
+  transition: 0.3rem;
+  margin-bottom: 3rem;
+}
+
+.main_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rem;
+}
+
+.design {
+  width: 27.3rem;
+  height: 25.1rem;
+  background-color: #FFFFFF;
+  box-shadow: 0px 41.7776107788px 33.422088623px 0px rgba(0, 0, 0, 0.0509803922);
+  transition: 0.5s ease;
+}
+.design:hover {
+  background-color: #08546C;
+  color: #FFFFFF;
+}
+
+.design2 {
+  margin-top: -1.5rem;
+}
+
+.design_title {
+  margin-top: 3.6rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.design_text {
+  font-weight: 600;
+  margin-left: 3rem;
+  color: #696969;
+}
+
+.design_img {
+  margin-left: 3rem;
+  margin-top: 0.3rem;
+}
+
+.featured_portfolio {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.featured_portfolio .feature_title {
+  color: #08546C;
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 1.33;
+}
+.featured_portfolio .feature_title .feature_text {
+  color: #757575;
+}
+
+.design:hover {
+  transform: scale(1.2);
+}
+.design:hover .design_text {
+  color: #fff;
+}
+
+.website {
+  width: 51.5rem;
+  height: 58.8rem;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.website .website_img {
+  padding-bottom: 4rem;
+}
+.website .website_title {
+  font-style: 2.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #08546C;
+  margin-bottom: 1rem;
+}
+.website .website_text {
+  color: #757575;
+  margin-bottom: 2rem;
+}
+.website .website_link:hover {
+  color: #FFA63A;
+}
+
+.website:hover {
+  transform: scale(1.2);
+}
+
+.wrapper_website {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rem;
+  gap: 14rem;
+}
+
+.hero__footer {
+  height: 75rem;
+  background-color: #043E51;
+  background-image: url("../../images/hero-blur-image-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__footer__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero__footer_img {
+  margin-top: 10.2rem;
+}
+
+.hero__footer_img2 {
+  padding-bottom: 3.2rem;
+}
+
+.hero__footer__right {
+  margin-top: 22.6rem;
+}
+
+.hero__footer_text {
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+  width: 58.5rem;
+  height: 15.1rem;
+}
+
+.footer {
+  width: 192rem;
+  height: 34.4rem;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16.8rem;
+  margin-top: 10.5rem;
+  padding-bottom: 17.2rem;
+}
+.footer_container .nav_link {
+  display: flex;
+  color: #787878;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.55;
+  margin-bottom: 1rem;
+}
+.footer_container .nav_link:hover {
+  color: #FFA63A;
+}
+
+.footer__nav1 .nav1_imgs {
+  display: flex;
+  gap: 1.9rem;
+  margin-top: 5.5rem;
+}
+.footer__nav1 .nav1_imgs_links {
+  transition: 0.4s;
+}
+.footer__nav1 .nav1_imgs_links:hover {
+  transform: scale(1.6);
+}
+.footer__nav1 .nav1_text {
+  width: 34.4rem;
+  height: 8.4rem;
+  color: #757575;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-top: 2rem;
+}
+
+.footer__nav2 .nav2_title {
+  color: #08546C;
+  margin-bottom: 2.8rem;
+}
+
+.footer__nav3 .nav3_title {
+  color: #08546C;
+  margin-bottom: 2.8rem;
+}
+
+.footer__nav4 .nav4_title {
+  color: #08546C;
+  margin-bottom: 2.8rem;
+}
+.footer__nav4 .nav_link4 {
+  width: 20.8rem;
+}
+
+.header__link {
+  width: 14rem;
+  height: 5.8rem;
+  background-color: #145E76;
+  border-radius: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.header__hero__link {
+  width: 19.5rem;
+  height: 6.5rem;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #094556;
+  color: #FFFFFF;
+  font-family: "Schoolbell", cursive;
+  margin-bottom: 4rem;
+  transition: 0.4s;
+}
+
+.header__hero__btn {
+  width: 13.7rem;
+  height: 6.1rem;
+  border-radius: 2.5rem;
+  background-color: #FFA63A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: 0.4s ease;
+}
+
+.header__hero__btn:hover {
+  background-color: #FFFFFF;
+  color: #FFA63A;
 }/*# sourceMappingURL=style.css.map */

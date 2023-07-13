@@ -1,0 +1,103 @@
+.hero__footer{
+    height:75rem;
+    background-color: $hero-header-bg;
+    background-image: url('../../images/hero-blur-image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero__footer__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+.hero__footer_img{
+    margin-top: 10.2rem;
+}
+.hero__footer_img2{
+    padding-bottom: 3.2rem;
+}
+.hero__footer__right{
+    margin-top: 22.6rem; 
+}
+.hero__footer_text{
+    font-family: $main-font;
+    color: $white-color;
+    width: 58.5rem;
+    height: 15.1rem;
+}
+.footer{
+    width: 192rem;
+    height: 34.4rem;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16.8rem;
+    margin-top: 10.5rem;
+    padding-bottom: 17.2rem;
+      & .nav_link{
+        display: flex;
+        color: $secondary-text-light-color;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 1.55;
+        margin-bottom: 1rem;
+      }
+      & .nav_link:hover{
+        color: $orange-color;
+      }
+}
+.footer__nav1{
+   
+    & .nav1_imgs{
+        display: flex;
+        gap: 1.9rem;
+        margin-top: 5.5rem;
+    }
+    & .nav1_imgs_links{
+        transition: 0.4s;
+    }
+    & .nav1_imgs_links:hover{
+        transform: scale(1.6) ;
+     
+    }
+    & .nav1_text{
+        width: 34.4rem;
+        height:8.4rem;
+        color:#757575; 
+        font-weight: $h4-fw;
+        font-size: $h4-fs;
+        line-height: $h4-lh;
+        margin-top: 2rem;
+    }
+}
+.footer__nav2 {
+    & .nav2_title {
+        color: $cyan-color;
+        margin-bottom: 2.8rem;
+    }
+}
+
+.nav2_link {
+}
+.footer__nav3 {
+    & .nav3_title {
+        color: $cyan-color;
+        margin-bottom: 2.8rem;
+    }
+}
+
+.footer__nav4 {
+    & .nav4_title {
+        color: $cyan-color;
+        margin-bottom: 2.8rem;
+    }
+    & .nav_link4{
+        width: 20.8rem;
+    }
+}
+

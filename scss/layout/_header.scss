@@ -3,6 +3,7 @@
     background-image: url('../images/hero-blur-image-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 24.8rem;
 }
 
 .header__top__container {
@@ -11,6 +12,12 @@
     align-items: center;
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
+    margin-bottom: 15rem;
+    & .header__link:hover{
+        color: $cyan-color-light;
+        background-color: #fff;
+
+    }
 }
 
 .sitenav__list {
@@ -44,4 +51,38 @@
        
         
     }
+}
+.header__hero__title{
+    width: 53.7rem;
+    font-size: $h1-fs;
+    line-height: $h1-lh;
+    color: $white-color;
+    font-family: $main-font;
+    margin-bottom: 3rem;
+}
+.header__hero__text {
+    width:51.1rem;
+    height: 5.8em;
+    color: #849499;
+    font-family: $main-font;
+    margin-bottom: 5rem;
+}
+.header__hero{
+    display: flex;
+    & .header__hero__link:hover{
+        color: $cyan-color-light;
+        background-color: #fff;
+    }
+}
+.header__hero_links{
+    display: flex;
+    gap: 5rem;
+   
+}
+.header__hero__link2{
+    color: #B6CDD4;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    font-family: $main-font;
 }
